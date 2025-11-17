@@ -2,6 +2,7 @@
 name: Build emuiibo
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - 'emuiibo/**'
